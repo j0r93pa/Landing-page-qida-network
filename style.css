@@ -1,0 +1,8 @@
+#barra a {
+    text-decoration: none;
+    color: black;
+}
+
+#barra a:hover {
+    color: gray;
+}
