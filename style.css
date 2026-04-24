@@ -7,13 +7,23 @@ html, body {
       
 }
 
+.bg-top{
+      height: 80%;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-attachment: fixed;
+      background-size: cover !important;
+      background-image: url('bg-top-2.jpg');
+}
+
+
 body {
       font-family: "Helvetica Neue",sans-serif;
       font-weight: lighter;
 }
 
 header {
-      height: 25%;
+      height: auto;
 }
 
 nav {
@@ -39,23 +49,47 @@ nav ul li a {
       font-size: 16px;
 }
 
-.ins-nam{
-      left: 100px;
+.tars{
+      display: flex; 
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 20px; 
+      padding: 40px;
 }
 
-.ins-nam .content{
+.content{
+      
+      left: 50%;
+      text-align: center;
+      font-size: 24px;
+      border-style: solid;
+      display: flex;
+      flex-direction: column;
+      border-radius: 14px ;
       width: auto;
       max-width: 18.5rem;
       padding: 10px;
       border: 2px solid #333;
+      box-shadow: 0rem 0.625rem 0.9375rem rgba(0,0,0,0.2);
 }
 
 .content li {
-      text-align: justify;
       display: inline-block;
 }
 
-.content img{
+.content li img{
+      border-radius: 25px;
+      padding-bottom: 10px;
       height: auto;
       width: auto;
+}
+
+.simplify p{
+      font-size: 20px;
+      text-align: justify;
+}
+
+.simplify{
+      padding: 15px;
+      background-color: #ff0000;
 }
